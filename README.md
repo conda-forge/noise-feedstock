@@ -36,9 +36,8 @@ See CHANGES.txt for more details
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/noise-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/noise-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/noise-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/noise-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/noise-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/noise-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/noise-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/noise-feedstock)
 
 Current release info
 ====================
