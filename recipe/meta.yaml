@@ -14,7 +14,8 @@ build:
   noarch: python
   noarch: python
   noarch: python
-  number: 5
+  noarch: python
+  number: 6
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
