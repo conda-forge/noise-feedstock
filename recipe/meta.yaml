@@ -5,11 +5,11 @@ package:
   version: '{{ version }}'
 
 source:
-  url: https://pypi.io/packages/source/n/noise/noise-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/n/noise/noise-{{ version }}.tar.gz
   sha256: 57a2797436574391ff63a111e852e53a4164ecd81ad23639641743cd1a209b65
 
 build:
-  number: 1005
+  number: 1006
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -17,6 +17,7 @@ requirements:
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
